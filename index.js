@@ -10,6 +10,3 @@ app.get("/soma", (req, res) => {
   res.json({ result });
 });
 
-app.listen(8081, () => {
-  console.log("Serviço de Soma rodando em http://localhost:8081/soma");
-});
